@@ -1,7 +1,13 @@
 source 'https://rubygems.org'
 
+# Gems Added to the project
 
+gem 'devise'
+gem 'cancancan'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+
+# Come to Rails Default
+
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
